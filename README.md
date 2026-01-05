@@ -1,4 +1,4 @@
-# Terminal Table Tennis
+# 🎾 Terminal Table Tennis
 
 A terminal-based table tennis game built with Node.js, featuring local multiplayer, AI opponents, power-ups, and statistics tracking.
 

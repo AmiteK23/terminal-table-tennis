@@ -273,20 +273,20 @@ function updateAI() {
   
   switch (gameState.aiDifficulty) {
     case 'easy':
-      reactionSpeed = 0.15;
-      accuracy = 0.5;
+      reactionSpeed = 0.08;
+      accuracy = 0.3;
       break;
     case 'medium':
-      reactionSpeed = 0.4;
-      accuracy = 0.7;
+      reactionSpeed = 0.2;
+      accuracy = 0.45;
       break;
     case 'hard':
-      reactionSpeed = 0.9;
-      accuracy = 0.95;
+      reactionSpeed = 0.5;
+      accuracy = 0.7;
       break;
     case 'impossible':
-      reactionSpeed = 1.0;
-      accuracy = 1.0;
+      reactionSpeed = 0.7;
+      accuracy = 0.85;
       break;
   }
   

@@ -146,4 +146,8 @@ Statistics are automatically saved to `game_stats.json` in the project directory
 
 ## License
 
-This project is provided as-is for educational and entertainment purposes.
+MIT License
+
+Copyright (c) 2026 Amit Levi
+
+See [LICENSE](LICENSE) file for details.

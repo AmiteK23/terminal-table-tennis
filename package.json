@@ -1,0 +1,22 @@
+{
+  "name": "terminal-table-tennis",
+  "version": "0.1.0",
+  "description": "A terminal-based table tennis game built with Node.js, featuring local multiplayer, AI opponents, power-ups, and statistics tracking.",
+  "main": "game.js",
+  "scripts": {
+    "start": "node game.js"
+  },
+  "keywords": [
+    "game",
+    "terminal",
+    "table-tennis",
+    "pong",
+    "cli"
+  ],
+  "author": "Amit Levi <amit23082@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
+

@@ -8,10 +8,10 @@ A terminal-based table tennis game built with Node.js, featuring local multiplay
 
 - **Two Player Mode** - Local multiplayer for two players
 - **VS AI Mode** - Single player against AI with four difficulty levels:
-  - Easy - Very beginner-friendly (slow reaction, lower accuracy)
-  - Medium - Moderate challenge (balanced for casual play)
-  - Hard - Skilled player difficulty
-  - Impossible - Near-perfect AI
+  - Easy - Very beginner-friendly (very slow reaction, low accuracy)
+  - Medium - Moderate challenge (slower reaction, moderate accuracy)
+  - Hard - Skilled player difficulty (moderate reaction, good accuracy)
+  - Impossible - Challenging AI (fast reaction, high accuracy)
 
 ### Power-Up System
 
@@ -55,10 +55,10 @@ The AI opponent uses predictive algorithms:
 
 - Trajectory prediction
 - Difficulty-based reaction speed and accuracy
-  - Easy: 15% reaction speed, 50% accuracy
-  - Medium: 40% reaction speed, 70% accuracy
-  - Hard: 90% reaction speed, 95% accuracy
-  - Impossible: 100% reaction speed, 100% accuracy
+  - Easy: 8% reaction speed, 30% accuracy
+  - Medium: 20% reaction speed, 45% accuracy
+  - Hard: 50% reaction speed, 70% accuracy
+  - Impossible: 70% reaction speed, 85% accuracy
 - Imperfection system for realistic gameplay
 - Optimal positioning
 

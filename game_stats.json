@@ -1,0 +1,12 @@
+{
+  "gamesPlayed": 9,
+  "wins": {
+    "left": 2,
+    "right": 7
+  },
+  "longestRally": 14,
+  "totalRallies": 112,
+  "averageRally": 14,
+  "powerUpsCollected": 0,
+  "games": []
+}

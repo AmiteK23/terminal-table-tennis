@@ -273,12 +273,12 @@ function updateAI() {
   
   switch (gameState.aiDifficulty) {
     case 'easy':
-      reactionSpeed = 0.3;
-      accuracy = 0.7;
+      reactionSpeed = 0.15;
+      accuracy = 0.5;
       break;
     case 'medium':
-      reactionSpeed = 0.6;
-      accuracy = 0.85;
+      reactionSpeed = 0.4;
+      accuracy = 0.7;
       break;
     case 'hard':
       reactionSpeed = 0.9;
@@ -332,11 +332,9 @@ function updateBall() {
   if (gameState.ball.y <= 0) {
     gameState.ball.vy = Math.abs(gameState.ball.vy);
     gameState.ball.y = 0;
-    createParticles(gameState.ball.x, 0, 5, colors.cyan);
   } else if (gameState.ball.y >= CONFIG.HEIGHT - 1) {
     gameState.ball.vy = -Math.abs(gameState.ball.vy);
     gameState.ball.y = CONFIG.HEIGHT - 1;
-    createParticles(gameState.ball.x, CONFIG.HEIGHT - 1, 5, colors.cyan);
   }
   
   // Enhanced paddle collision
@@ -358,7 +356,6 @@ function updateBall() {
         gameState.ball.x = paddleX + (isLeft ? 1 : -1) * 0.5;
         
         // Visual feedback
-        createParticles(gameState.ball.x, gameState.ball.y, 8, colors.green);
         beep();
         
         // Rally tracking

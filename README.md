@@ -8,8 +8,8 @@ A terminal-based table tennis game built with Node.js, featuring local multiplay
 
 - **Two Player Mode** - Local multiplayer for two players
 - **VS AI Mode** - Single player against AI with four difficulty levels:
-  - Easy - Beginner-friendly
-  - Medium - Balanced challenge
+  - Easy - Very beginner-friendly (slow reaction, lower accuracy)
+  - Medium - Moderate challenge (balanced for casual play)
   - Hard - Skilled player difficulty
   - Impossible - Near-perfect AI
 
@@ -23,11 +23,12 @@ Power-ups spawn randomly during gameplay and provide temporary advantages:
 
 ### Visual Effects
 
-- Particle effects on collisions and scoring
+- Particle effects on scoring and power-up collection
 - Ball trail visualization
 - Animated center line
 - Color-coded ball (changes based on speed)
 - Power-up indicators
+- Audio feedback (beep on paddle hits)
 
 ### Statistics Tracking
 
@@ -54,6 +55,10 @@ The AI opponent uses predictive algorithms:
 
 - Trajectory prediction
 - Difficulty-based reaction speed and accuracy
+  - Easy: 15% reaction speed, 50% accuracy
+  - Medium: 40% reaction speed, 70% accuracy
+  - Hard: 90% reaction speed, 95% accuracy
+  - Impossible: 100% reaction speed, 100% accuracy
 - Imperfection system for realistic gameplay
 - Optimal positioning
 
@@ -118,7 +123,7 @@ node game.js
 - White/Yellow/Red ball (color indicates speed)
 - Yellow score display
 - Magenta rally counter
-- Particle effects on collisions
+- Particle effects on scoring and power-up collection
 
 ## Statistics File
 
